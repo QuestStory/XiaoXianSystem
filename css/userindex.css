@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	width: 100%;
+	height: 720px;
+	background: linear-gradient(#6fcdff, #d8f0ff) no-repeat;
+}
+
+#top {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+#logo{
+	height: 50px;
+}
+
+#logo img{
+	width: 100%;
+	height: 50px;
+}
+
+#link {
+	position: absolute;
+	right: 40px;
+	display: flex;
+	height: 50px;
+	align-items: center;
+}
+
+#link li{
+	margin-left: 10px;
+}
+#link li a{
+	text-decoration: none;
+	color: chocolate;
+}
+
+#search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 80px;
+	border-radius: 5px;
+}
+
+#search form {
+	display: flex;
+}
+
+#search select {
+	width: 200px;
+	height: 40px;
+	background: #a6b4d4;
+	border: 0px;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#search #input1 {
+	width: 200px;
+	height: 40px;
+	background: #e4e4e4;
+	border: 0;
+	border-radius: 0px 0px 0px 0px;
+}
+
+#search #input2 {
+	width: 60px;
+	height: 40px;
+	border: 0px;
+	background: #9ea6c2;
+	border-radius: 0px 5px 5px 0px;
+}
+
+#content {
+	overflow: auto;
+	width: 100%;
+	height: calc(100% - 180px);
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#content-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 500px;
+	margin-right: 20px;
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+#content-left li{
+	margin-top: 20px;
+	
+}
+#content-left li a{
+	text-decoration: none;
+}
+
+
+#content-right {
+	width: 920px;
+	height: 500px;
+	border-radius: 5px;
+	background-color: white;
+	overflow: auto;
+}
+
+#content-right ul li{
+	float: left;
+	margin:5px 20px;
+}
+
+#content-right ul li div{
+	position: relative;
+	width: 150px;
+	height: 216px;
+	padding: 10px 10px;
+	border: 2px solid lightsteelblue;
+	border-radius: 10px;
+	background-color: ghostwhite;
+}
+
+#content-right ul li div img{
+	width: 150px;
+	height: 200px;
+	object-fit:cover;
+	border-radius: 10px;	
+}
+
+#content-right ul li div p{
+	position: absolute;
+	bottom: 2px;
+	color: chocolate;
+}
+
+#content-foot{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	background: #b9c9fd;
+}
+
+#content-foot form input{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#bottom{
+	width: 100%;
+	height: 50px;
+	background: #3C8DBC;
+}

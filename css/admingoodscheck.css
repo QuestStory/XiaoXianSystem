@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 50px;
+	background: #3c8dbc;
+}
+
+#top h1 {
+	color: #FFFFFF;
+}
+
+#navigation {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: 650px;
+}
+
+#admin {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 150px;
+	background: #4a5064;
+}
+
+#link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 500px;
+	background: #333744;
+}
+
+#menu {
+	width: 160px;
+	margin-bottom: 40px;
+}
+
+#menu p {
+	width: 160px;
+	color: white;
+}
+
+#menu ul li {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	width: 160px;
+	height: 22px;
+	border-top: 1px dashed #666666;
+	color: #ffffff;
+}
+
+#menu ul li:hover {
+	display: inline-block;
+	background-color: red;
+	text-align: center;
+	width: 160px;
+	height: 22px;
+	border-top: 1px dashed #666666;
+	color: #ffffff;
+}
+
+#menu ul li a {
+	color: orange;
+	text-decoration: none;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 80%;
+	height: 650px;
+	background: #6FCDFF;
+}
+
+#content #search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 100px;
+	background: #808080;
+	border-radius: 5px;
+}
+
+#content #search form {
+	display: flex;
+}
+
+#content #search select {
+	width: 200px;
+	height: 40px;
+	background: #a6b4d4;
+	border: 0px;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#content #search #input1 {
+	width: 200px;
+	height: 40px;
+	background: #e4e4e4;
+	border: 0;
+	border-radius: 0px 0px 0px 0px;
+}
+
+#content #search #input2 {
+	width: 60px;
+	height: 40px;
+	border: 0px;
+	background: #9ea6c2;
+	border-radius: 0px 5px 5px 0px;
+}
+
+#content #data {
+	width: 90%;
+	height: 500px;
+	background: #ffffff;
+	border-radius: 5px;
+}
+
+#content #data #datalist table {
+	width: 100%;
+	border-spacing: 0px;
+}
+
+#content #data #datalist table tr {
+	height: 40px;
+	background: #e8edff;
+}
+
+#content #data #datalist table tr:nth-child(1) {
+	height: 40px;
+	background: #b9c9fd;
+}
+
+#content #data #datalist table tr:hover {
+	background: #9aa7d3;
+}
+
+#content #data #datalist table th,
+td {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 10px;
+	text-align: left;
+}
+
+#content #data #datapage {
+	width: 100%;
+	height: 40px;
+	background: #b9c9fd;
+}
